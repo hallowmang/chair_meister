@@ -173,6 +173,10 @@ header {
                   transform: scaleX(1);
                 }
               }
+              &.on .yellow-line::after {
+                width: 100%;
+                transform: scaleX(1);
+              }
               &:nth-child(5) {
                 a {
                   color: #fff;
@@ -918,7 +922,7 @@ header {
 }
 
 /* =============================  반응형 800px  ===================================== */
-@media (max-width:800px) {
+@media (max-width: 800px) {
   header {
     &::after {
       content: "";
@@ -954,7 +958,7 @@ header {
           width: 100%;
           /* nav-top */
           .nav-top {
-            display: none;            
+            display: none;
             .quick-list {
               width: 150px;
               line-height: 12px;
@@ -1070,7 +1074,7 @@ header {
                   }
                 }
               }
-  
+
               .nav-2dep {
                 display: none;
                 width: 100%;

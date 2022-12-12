@@ -175,6 +175,10 @@ header .visual-container .visual-wrap .nav-wrap .nav-bottom > ul > li .yellow-li
   width: 100%;
   transform: scaleX(1);
 }
+header .visual-container .visual-wrap .nav-wrap .nav-bottom > ul > li.on .yellow-line::after {
+  width: 100%;
+  transform: scaleX(1);
+}
 header .visual-container .visual-wrap .nav-wrap .nav-bottom > ul > li:nth-child(5) a {
   color: #fff;
   position: relative;
