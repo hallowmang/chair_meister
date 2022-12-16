@@ -277,6 +277,7 @@ header .visual-container .visual-wrap .nav-wrap .nav-bottom > ul .nav-2dep ul li
 .footer-container .footer-top-wrap .footer-top .footer-top-left {
   width: 50%;
   padding: 130px 0 94px;
+  transition: 2000ms;
 }
 .footer-container .footer-top-wrap .footer-top .footer-top-left > span {
   font-size: 16px;
