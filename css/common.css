@@ -147,6 +147,9 @@ header .visual-container .visual-wrap .nav-wrap .nav-bottom > ul {
   display: flex;
   justify-content: space-between;
 }
+header .visual-container .visual-wrap .nav-wrap .nav-bottom > ul:hover .nav-2dep {
+  display: block;
+}
 header .visual-container .visual-wrap .nav-wrap .nav-bottom > ul > li {
   position: relative;
   margin: 0 auto;

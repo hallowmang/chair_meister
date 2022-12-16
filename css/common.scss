@@ -146,6 +146,9 @@ header {
             width: 80%;
             display: flex;
             justify-content: space-between;
+            &:hover .nav-2dep {
+              display: block;
+            }
             > li {
               position: relative;
               margin: 0 auto;

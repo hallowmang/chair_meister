@@ -4,10 +4,15 @@ $("body").append("<footer>")
 $("header").load("./inc.html header",head)
 $("footer").load("./inc.html footer")
 
-let idx =  localStorage.idx || 0;
+let idx =  localStorage.idx;
 
 function head() {
   $(".nav-bottom>ul>li").eq(idx).addClass("on");
+
+  $(".logo").click(function(){
+    localStorage.clear();
+  })
+
   $(".nav-bottom>ul>li").click(function () {
     let idx = $(this).index();
 
