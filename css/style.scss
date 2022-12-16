@@ -112,9 +112,6 @@
           display: flex;
           justify-content: center;
           margin-bottom: 40px;
-          &.on{
-            
-          }
           h2 {
             font-size: 3.5rem;
             font-weight: 300;
@@ -204,6 +201,7 @@
         width: 80%;
         margin: 0 auto;
         display: flex;
+        transition: 2000ms;
         .exhibition {
           width: 60%;
           .ex-title {
@@ -431,6 +429,7 @@
             display: flex;
             justify-content: center;
             margin-bottom: 40px;
+            transition: 2000ms;
             h2 {
               font-size: 3rem;
               font-weight: 300;
